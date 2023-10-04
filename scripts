@@ -1,1 +1,3 @@
-this is a test
+function updatemintscripts() {( curl -s 
+https://raw.githubusercontent.com/TobiasNagel01/macos-scripts/main/scripts
+> ~/.zshrc_mint && source ~/.zshrc && echo "Scripts updated!" )}

@@ -1,1 +1,3 @@
 function updatemintscripts() {( curl -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/TobiasNagel01/macos-scripts/main/scripts > ~/.zshrc_mint && source ~/.zshrc && echo "Scripts updated" )}
+
+alias copyssh="cat ~/.ssh/id_rsa.pub | pbcopy"
